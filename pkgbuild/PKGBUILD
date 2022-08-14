@@ -1,0 +1,20 @@
+# Maintainer: Bruno Goncalves <bigbruno@gmail.com>
+
+pkgname=ProtonK
+pkgver=1.22
+pkgrel=1
+arch=('any')
+license=('GPL')
+depends=('latencyflex')
+url="https://github.com/gitbarnabedikartola/protonk"
+pkgdesc="Remastering of Proton Experimental, which uses the latest binary versions as a base, always updating DXVK and VKD3D to their latest versions, as well as adding support for LatencyFlex"
+source=("git+$url.git")
+install=post.install
+md5sums=(SKIP)
+
+package() {
+    cp -r "${srcdir}/protonK/usr/" "${pkgdir}/"
+#     cp -r "${srcdir}/biglinux-session-and-themes/etc/" "${pkgdir}/"
+}
+
+
