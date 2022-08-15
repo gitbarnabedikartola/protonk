@@ -12,7 +12,7 @@ source=("git+$url.git")
 md5sums=(SKIP)
 
 package() {
-    cp -r "${srcdir}/protonK/usr/" "${pkgdir}/"
+    cp -r "${srcdir}/protonk/usr/" "${pkgdir}/"
 #     cp -r "${srcdir}/biglinux-session-and-themes/etc/" "${pkgdir}/"
 }
 
