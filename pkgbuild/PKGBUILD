@@ -1,6 +1,6 @@
 # Maintainer: Bruno Goncalves <bigbruno@gmail.com>
 
-pkgname=ProtonK
+pkgname=protonk
 pkgver=1.22
 pkgrel=1
 arch=('any')
