@@ -9,7 +9,6 @@ depends=('latencyflex')
 url="https://github.com/gitbarnabedikartola/protonk"
 pkgdesc="Remastering of Proton Experimental, which uses the latest binary versions as a base, always updating DXVK and VKD3D to their latest versions, as well as adding support for LatencyFlex"
 source=("git+$url.git")
-install=post.install
 md5sums=(SKIP)
 
 package() {
